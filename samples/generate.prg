@@ -5,6 +5,6 @@ do ("../src/qrcoder.prg")
 * second parameter is correction level: H, M, L, Q 
 content = _screen.qrcoder.createPNG("https://google.com", "H")
 
-wait "Select a file to save PNG file" timeout 4
-file = getfile(".png")
+wait WINDOW "Select a file to save PNG file" timeout 2
+file = getfile("png")
 strtofile(m.content, m.file)

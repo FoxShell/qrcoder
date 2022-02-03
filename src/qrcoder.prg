@@ -13,12 +13,12 @@ catch to ex
 	create = .t. 
 endtry 
 
-TRY
-_screen.AddProperty("qrcoder", .null.)
-CATCH TO ex 
-ENDTRY 
 
 if m.create
+	TRY
+		_screen.AddProperty("qrcoder", .null.)
+	CATCH TO ex 
+	ENDTRY 
 	_screen.qrcoder = createobject("QRCoder")
 endif 
 
