@@ -105,7 +105,7 @@ EndFunc
 
 Function QRCoderGetDllFile()
 	Local file
-	file = AddBS(GetEnv("USERPROFILE")) + "Kawix/shide.lib/kodnet-libs"
+	file = AddBS(GetEnv("USERPROFILE")) + "KwRuntime/kodnet/libs"
 	If !directory(m.file)
 		mkdir (m.file)
 	EndIf 
