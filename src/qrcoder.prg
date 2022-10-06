@@ -1,7 +1,7 @@
 local ver, create
 
 * call this file at start of application, or before start using kodnet
-do (getenv("Userprofile") + "\kawix\shide.lib\kodnet\kodnet.prg")
+do (getenv("Userprofile") + "\kwruntime\kodnet\kodnet.prg")
 
 create = .f. 
 try 
