@@ -3,7 +3,7 @@ QRCode generator for VFP9 and VFP Advanced. Works with kodnet
 
 ## Usage
 
-1. QRcoder for VFP works with kodnet (a library for Microsoft .NET interop). Please first install [kodnet](https://github.com/FoxShell/kodnet) (v3 or superior)
+1. QRcoder for VFP works with kodnet (a library for Microsoft .NET interop). Please first install [kodnet](https://github.com/FoxShell/kodnet) (3.0.1 or superior)
 
 2. Add [src/qrcoder.prg](./src/qrcoder.prg) to your project
 
