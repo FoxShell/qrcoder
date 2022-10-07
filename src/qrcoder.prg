@@ -1,7 +1,9 @@
 local ver, create
 
 * call this file at start of application, or before start using kodnet
-do (getenv("Userprofile") + "\kwruntime\kodnet\kodnet.prg")
+do (getenv("Userprofile") + "\kwruntime\kodnet\loader.prg")
+* Load .NET Framework v4.5+
+_screen.kodnetLoader.load("v4")
 
 create = .f. 
 try 
